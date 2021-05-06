@@ -3,8 +3,8 @@ import {css} from "styled-components";
 export const grommetTheme = {
     global: {
         colors: {
-            brand: '#11d0a8',
-            'accent-1': '#8ed0c1',
+            brand: '#0054a3',
+            'accent-1': '#f66b3b',
         },
         font: {
             family: 'Roboto',
@@ -12,10 +12,13 @@ export const grommetTheme = {
             height: '20px',
         },
     },
+    heading: {
+        weight: 400
+    },
     tab: {
         color: 'text',
         active: {
-            background: 'background-back',
+            background: 'brand',
         },
         hover: {
             background: 'background-back',
@@ -25,7 +28,7 @@ export const grommetTheme = {
             side: 'bottom',
             color: 'background-back',
             active: {
-                color: 'border',
+                color: 'brand',
             },
             hover: {
                 color: 'control',
