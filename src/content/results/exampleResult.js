@@ -1,10 +1,10 @@
 export const exampleResult = {
-    share: {
-        use: 19,
-        dontUse: 30
+    individual: {
+        share: 2,
+        dontShare: 25
     },
-    dontShare: {
-        use: 20,
-        dontUse: 40
+    state: {
+        use: 25,
+        dontUse: 20
     }
 }
