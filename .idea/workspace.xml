@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f8132f-8344-4962-b85e-565da7d5e977" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Atoms/ContentBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Atoms/Heading2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Atoms/MultiParagraphDiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Atoms/MyParagraph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Introduction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Title.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Payoffs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Conclusion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contexts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TheGame.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Atoms/ContentBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Atoms/ContentBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Atoms/MyParagraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Atoms/MyParagraph.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DataVisualisation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DataVisualisation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Introduction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/results/exampleResult.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/results/exampleResult.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/cases/pnr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/cases/pnr.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +31,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1s4bRi2m0NWcyf5zR5rp7BCA7kj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -45,13 +50,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/Atoms" />
       <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/src/components/Atoms" />
       <recent name="$PROJECT_DIR$/src/content/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -69,7 +75,8 @@
       <workItem from="1620218325533" duration="598000" />
       <workItem from="1620222906864" duration="596000" />
       <workItem from="1620291703184" duration="6435000" />
-      <workItem from="1620311695963" duration="7975000" />
+      <workItem from="1620311695963" duration="11885000" />
+      <workItem from="1620390962353" duration="5697000" />
     </task>
     <servers />
   </component>
@@ -87,5 +94,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

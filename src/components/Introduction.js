@@ -12,11 +12,11 @@ export const Introduction = () => {
             <Heading2 title={"Introduction"}/>
             <Box margin={{top: "medium"}}>
                 <MultiParagraphDiv>
-                    <MyParagraph style={{"margin-top": "0px"}}>
+                    <MyParagraph>
                         Predictive policing is the latest buzz in crime control. Recently the term has been dragged
                         through the media in all sorts of ways. There is no doubt that predictive policing can harm
                         people, mainly minorities. However, can it do any good? Various documentaries about what
-                        Artificial Intelligence can and can not do are on some of the largest streaming platforms like
+                        Artificial Intelligence can and cannot do are on some of the largest streaming platforms like
                         Netflix or Amazon Prime. Pioneers in different fields are interviewed and reflect on the dangers
                         and coded biases or advantages of using AI in everyday life. The point is that there is an
                         increase in the exposure of information about AI to the public.
@@ -37,20 +37,18 @@ export const Introduction = () => {
                         a basic understanding of what happens is vital.
                     </MyParagraph>
                     <MyParagraph>
-                        We developed a game based on the prisoners' paradox. The players can choose what side they want
-                        to play on. Either they act as the state/police or as individuals. Five separate contexts
+                        We developed a game based on the prisoners' paradox. Either they act as the state/police or as individuals. Five separate contexts
                         describe a particular situation, providing the players with basic information in connection with
                         predictive policing methods. The players can then choose to use/not use private information when
-                        they are in the position of the state/police. If they choose to act as individuals, they can
+                        they are in the position of the state/police. If they choose are in the role of an individual, they can
                         choose to share the data with the state/police or not.
                     </MyParagraph>
                     <MyParagraph>
                         After one round of the game, the players can look at the results. There they can check what
-                        their peers/contenders chose in the same situations. For each situation, the current legal
-                        framework is shown and briefly discussed. As more and more players play the game, the number of
+                        their peers/contenders chose in the same situations. As more and more players play the game, the number of
                         results accumulate, and the individuals can see how their idea in a particular situation
                         performs. Either in the view of the state or as an individual matches the current legal
-                        framework.
+                        framework. On this page we share the results from our research.
                     </MyParagraph>
                 </MultiParagraphDiv>
             </Box>
