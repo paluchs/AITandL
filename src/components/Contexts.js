@@ -7,6 +7,8 @@ import {Group, Nodes, Send, Shield, View} from "grommet-icons";
 import {TabContent} from "./TabContent";
 import {exampleResult} from "../content/results/exampleResult";
 import {pnr} from "../content/cases/pnr";
+import {nrf} from "../content/cases/nrf";
+import {cm} from "../content/cases/cm";
 
 export const Contexts = () => {
     return (
@@ -39,10 +41,10 @@ export const Contexts = () => {
                         <TabContent title={"Passenger Name Record (PNR)"} result={exampleResult} context={pnr}/>
                     </Tab>
                     <Tab title="Near Repeat Forecast" icon={<Nodes/>}>
-                        <TabContent result={exampleResult} context={pnr}/>
+                        <TabContent result={exampleResult} context={nrf}/>
                     </Tab>
                     <Tab title="Crowd Monitoring" icon={<Group/>}>
-                        <TabContent result={exampleResult} context={pnr}/>
+                        <TabContent result={exampleResult} context={cm}/>
                     </Tab>
                     <Tab title="Facial Recognition" icon={<View/>}>
                         <TabContent result={exampleResult} context={pnr}/>

@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f8132f-8344-4962-b85e-565da7d5e977" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/Payoffs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Conclusion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contexts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TheGame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/cases/cm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/cases/nrf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Atoms/ContentBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Atoms/ContentBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Atoms/MyParagraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Atoms/MyParagraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DataVisualisation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DataVisualisation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Introduction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/cases/pnr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/cases/pnr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contexts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contexts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +68,9 @@
       <workItem from="1620222906864" duration="596000" />
       <workItem from="1620291703184" duration="6435000" />
       <workItem from="1620311695963" duration="11885000" />
-      <workItem from="1620390962353" duration="5697000" />
+      <workItem from="1620390962353" duration="6188000" />
+      <workItem from="1620399269290" duration="1392000" />
+      <workItem from="1620629964342" duration="835000" />
     </task>
     <servers />
   </component>
