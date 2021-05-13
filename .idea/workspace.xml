@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f8132f-8344-4962-b85e-565da7d5e977" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/content/cases/cm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/cases/nrf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Atoms/MyLi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Atoms/MyLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Atoms/MyUl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Atoms/SourceParagraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Atoms/Underlined.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GeneralLegal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/cases/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/cases/fc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Conclusion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Conclusion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contexts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contexts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TheGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TheGame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/cases/cm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/cases/cm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/cases/nrf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/cases/nrf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/cases/pnr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/cases/pnr.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +62,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/content" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/src/components/Atoms" />
       <recent name="$PROJECT_DIR$/src/content/images" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,7 +85,10 @@
       <workItem from="1620311695963" duration="11885000" />
       <workItem from="1620390962353" duration="6188000" />
       <workItem from="1620399269290" duration="1392000" />
-      <workItem from="1620629964342" duration="835000" />
+      <workItem from="1620629964342" duration="1347000" />
+      <workItem from="1620649675679" duration="6000" />
+      <workItem from="1620650484823" duration="41000" />
+      <workItem from="1620891287539" duration="10341000" />
     </task>
     <servers />
   </component>

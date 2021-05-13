@@ -16,6 +16,12 @@ export const Title = () => {
                  background={'rgba(255,255,255,0.92)'}
                  width={{max: 'xlarge'}}
                  justify={'end'}
+                 animation={{
+                     "type": "slideRight",
+                     "delay": 0,
+                     "duration": 1500,
+                     "size": "large"
+                 }}
             >
                 <Box width={'small'}>
                     <Image src={'images/uzh_logo.png'}
@@ -23,7 +29,7 @@ export const Title = () => {
                     />
                 </Box>
                 <Box border={{ color: 'brand', size: 'medium', side: "bottom" }}>
-                    <Heading level={1} color= {'brand'} margin={{bottom: '5px'}} size={'large'} style={{"font-weight": "300"}}> PREDICTIVE POLICING</Heading>
+                    <Heading level={1} color= {'brand'} margin={{bottom: '5px'}} size={'large'} style={{"fontWeight": "300"}}> PREDICTIVE POLICING</Heading>
                 </Box>
                 <Heading level={2} margin={{top: 'large', bottom: '0px'}}> Artificial Intelligence: Technology &amp; Law</Heading>
                 <Heading level={3} margin={{top: '2px', bottom: '10px'}} size={'medium'}> Spring Semester 2021</Heading>

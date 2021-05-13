@@ -11,7 +11,7 @@ export const TheGame = () => {
                  justify={'between'}
             >
                 <Box margin={{top: "medium"}}>
-                    <MyParagraph style={{"max-width": "800px"}}>
+                    <MyParagraph style={{"maxWidth": "800px"}}>
                         The game's goal is to ask participants in a fun and exciting way about how they feel about
                         authorities using their data to combat crime and increase security. While on the one hand,
                         we can learn about the attitudes of the public towards particular contexts of data use, we
@@ -19,7 +19,7 @@ export const TheGame = () => {
                         learn about the current state of the law and where it coincides with their views and where
                         it doesn't.
                     </MyParagraph>
-                    <MyParagraph style={{"max-width": "800px"}}>
+                    <MyParagraph style={{"maxWidth": "800px"}}>
                         Each player has to make a decision. If they are in the role of an individual, they can
                         either chose to share the data or not share data specific to the context. Depending on the
                         setting, not sharing the data can come with disadvantages depending on what the other
@@ -28,7 +28,7 @@ export const TheGame = () => {
                         Again, depending on what the other player chose, this decision can either lead to a gain or
                         loss of points.
                     </MyParagraph>
-                    <MyParagraph style={{"max-width": "800px"}}>
+                    <MyParagraph style={{"maxWidth": "800px"}}>
                         This logic leads to four different outcomes, which yield different payoffs for individuals and
                         authorities. While the reality is often quite complex, we decided on the payoffs on the right
                         for this project after lengthy discussions. We agreed that individuals don't have a lot to gain
@@ -38,7 +38,7 @@ export const TheGame = () => {
                         if they refrain from sharing their data and the state decides to use data. Then, refrain from
                         using services where the authorities collect data can come at a disadvantage.
                     </MyParagraph>
-                    <MyParagraph style={{"max-width": "800px"}}>
+                    <MyParagraph style={{"maxWidth": "800px"}}>
                         On the other hand, it is crucial that individuals are willing to share data for the state to
                         fight crime and solve problems specific to the contexts more efficiently. Therefore, the state
                         loses if the individual decides not to share their data. As a result, the only way for a state

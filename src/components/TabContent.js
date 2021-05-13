@@ -1,7 +1,8 @@
-import {Box, Heading, Text} from "grommet";
+import {Box, Heading} from "grommet";
 import {DataVisualisation} from "./DataVisualisation";
 import {MyParagraph} from "./Atoms/MyParagraph";
 import {MultiParagraphDiv} from "./Atoms/MultiParagraphDiv";
+import {SourceParagraph} from "./Atoms/SourceParagraph";
 
 const Heading3Main = props => {
     return (
@@ -26,7 +27,7 @@ export const TabContent = props => {
             <Box width={"70%"} gap={'medium'}>
                 <Heading3Main title={'Setting'}/>
                 <MultiParagraphDiv>
-                    <MyParagraph style={{"margin-top": "0px"}}>
+                    <MyParagraph style={{"marginTop": "0px"}}>
                         {props.context.setting}
                     </MyParagraph>
                 </MultiParagraphDiv>
@@ -37,21 +38,21 @@ export const TabContent = props => {
                 >
                     <Box>
                         <Heading level={4}>To the individual:</Heading>
-                        {props.context.question.individual.map(ques => {
-                            return <MyParagraph>{ques}</MyParagraph>
+                        {props.context.question.individual.map((ques, index) => {
+                            return <MyParagraph key={"QuesInd" + index}>{ques}</MyParagraph>
                         })}
                     </Box>
                     <Box>
                         <Heading level={4}>To the authorities:</Heading>
-                        {props.context.question.state.map(ques => {
-                            return <MyParagraph>{ques}</MyParagraph>
+                        {props.context.question.state.map((ques, index) => {
+                            return <MyParagraph key={"Ques" + index}>{ques}</MyParagraph>
                         })}
                     </Box>
                 </Box>
                 <Heading3Main title={'Legal status in Switzerland'}/>
                 <MultiParagraphDiv>
                     {props.context.legalInformation.map(para => {
-                        return <MyParagraph>{para}</MyParagraph>
+                        return para
                     })}
                 </MultiParagraphDiv>
                 <Box border={{size: 'xsmall', side: "bottom"}}
@@ -62,14 +63,16 @@ export const TabContent = props => {
                     </Heading>
                 </Box>
                 <MultiParagraphDiv>
-                    {props.context.additionalInformation.map(para => {
-                        return <MyParagraph>{para}</MyParagraph>
+                    {props.context.additionalInformation.map((para) => {
+                        return para
                     })}
                 </MultiParagraphDiv>
-                <Heading3Main title={'Sources'}/>
-                {props.context.sources.map(para => {
-                    return <Text size={'small'} margin={{vertical: '0px'}}>{para}</Text>
-                })}
+                <hr/>
+                <Box gap={'0px'}>
+                    {props.context.sources.map((para, index) => {
+                        return <SourceParagraph key={index}>{para}</SourceParagraph>
+                    })}
+                </Box>
             </Box>
             <Box>
                 <DataVisualisation data={props.result}/>

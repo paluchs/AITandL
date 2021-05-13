@@ -5,6 +5,7 @@ import {Title} from "./components/Title";
 import {Conclusion} from "./components/Conclusion";
 import {Contexts} from "./components/Contexts";
 import {TheGame} from "./components/TheGame";
+import {GeneralLegal} from "./components/GeneralLegal";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
                 <Title/>
                 <Introduction/>
                 <TheGame/>
+                <GeneralLegal/>
                 <Contexts/>
                 <Conclusion/>
                 <Footer background="light-4" justify="center" pad="small">
