@@ -86,7 +86,6 @@ export const TabContent = props => {
             <Heading3Main title={'Potential Outcomes'}/>
             <Box direction={'row-responsive'}
                  gap={'medium'}
-
             >
                 <Box>
                     <MyParagraph style={{"marginTop": "30px"}}>
