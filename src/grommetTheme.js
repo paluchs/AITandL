@@ -1,6 +1,8 @@
 import {css} from "styled-components";
+import { deepMerge } from 'grommet/utils';
+import { grommet} from "grommet";
 
-export const grommetTheme = {
+export const grommetTheme = deepMerge(grommet, {
     global: {
         colors: {
             brand: '#0054a3',
@@ -44,4 +46,5 @@ export const grommetTheme = {
           font-weight: bold;
         `,
     },
-};
+}
+);

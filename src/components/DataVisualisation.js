@@ -49,7 +49,7 @@ export const DataVisualisation = props => {
              background={'white'}
              round={'xsmall'}
              pad={{horizontal: "medium", vertical: "small"}}
-             width={'medium'}
+             width={{min: 'medium'}}
              elevation={"xsmall"}
         >
             <Box border={{color: 'accent-1', size: 'xsmall', side: "bottom"}}>
