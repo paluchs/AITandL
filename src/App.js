@@ -11,14 +11,18 @@ import {GeneralLegal} from "./components/GeneralLegal";
 function App() {
     return (
         <Grommet theme={grommetTheme}>
-            <Box fill={true} justify={'between'}>
+            <Box fill={true}
+                 justify={'center'}
+                 align={'center'}
+                 pad={{horizontal: 'small'}}
+            >
                 <Title/>
                 <Introduction/>
                 <TheGame/>
                 <GeneralLegal/>
                 <Contexts/>
                 <Conclusion/>
-                <Footer background="light-4" justify="center" pad="small">
+                <Footer background="light-4" justify="center" pad="small" fill>
                     <Text textAlign="center" size="small">
                         This research project was conducted by: Rezuanul Haque, Patrick Luchsinger, Maria Pelli, Simon
                         Rufer, Jan Winkler
