@@ -14,14 +14,15 @@ function App() {
             <Box fill={true}
                  justify={'center'}
                  align={'center'}
-                 pad={{horizontal: 'small'}}
             >
                 <Title/>
-                <Introduction/>
-                <TheGame/>
-                <GeneralLegal/>
-                <Contexts/>
-                <Conclusion/>
+                <Box pad={{horizontal: "small"}}>
+                    <Introduction/>
+                    <TheGame/>
+                    <GeneralLegal/>
+                    <Contexts/>
+                    <Conclusion/>
+                </Box>
                 <Footer background="light-4" justify="center" pad="small" fill>
                     <Text textAlign="center" size="small">
                         This research project was conducted by: Rezuanul Haque, Patrick Luchsinger, Maria Pelli, Simon
