@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f8132f-8344-4962-b85e-565da7d5e977" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Atoms/MyLi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Atoms/MyLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Atoms/MyUl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Atoms/SourceParagraph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Atoms/Underlined.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GeneralLegal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/cases/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/cases/fc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/results/ca_result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/results/cm_result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/results/fc_result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/results/nrf_result.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Conclusion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Conclusion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contexts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contexts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TheGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TheGame.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/cases/cm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/cases/cm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/cases/nrf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/cases/nrf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/cases/pnr.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/cases/pnr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/results/exampleResult.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/results/pnr_result.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +78,7 @@
       <workItem from="1620629964342" duration="1347000" />
       <workItem from="1620649675679" duration="6000" />
       <workItem from="1620650484823" duration="41000" />
-      <workItem from="1620891287539" duration="10341000" />
+      <workItem from="1620891287539" duration="11556000" />
     </task>
     <servers />
   </component>

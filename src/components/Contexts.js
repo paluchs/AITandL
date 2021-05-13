@@ -5,12 +5,16 @@ import {MultiParagraphDiv} from "./Atoms/MultiParagraphDiv";
 import {MyParagraph} from "./Atoms/MyParagraph";
 import {Group, Nodes, Send, Shield, View} from "grommet-icons";
 import {TabContent} from "./TabContent";
-import {exampleResult} from "../content/results/exampleResult";
+import {pnr_result} from "../content/results/pnr_result";
 import {pnr} from "../content/cases/pnr";
 import {nrf} from "../content/cases/nrf";
 import {cm} from "../content/cases/cm";
 import {fc} from "../content/cases/fc";
 import {ca} from "../content/cases/ca";
+import {nrf_result} from "../content/results/nrf_result";
+import {cm_result} from "../content/results/cm_result";
+import {fc_result} from "../content/results/fc_result";
+import {ca_result} from "../content/results/ca_result";
 
 export const Contexts = () => {
     return (
@@ -68,19 +72,19 @@ export const Contexts = () => {
             <Box margin={{top: 'large'}}>
                 <Tabs flex>
                     <Tab key={'Tab1'} title="Passenger Name Record (PNR)" icon={<Send/>}>
-                        <TabContent key={'pnr'} title={"Passenger Name Record (PNR)"} result={exampleResult} context={pnr}/>
+                        <TabContent key={'pnr'} title={"Passenger Name Record (PNR)"} result={pnr_result} context={pnr}/>
                     </Tab>
                     <Tab key={'Tab2'} title="Near Repeat Forecast" icon={<Nodes/>}>
-                        <TabContent key={'nrf'} result={exampleResult} context={nrf}/>
+                        <TabContent key={'nrf'} result={nrf_result} context={nrf}/>
                     </Tab>
                     <Tab  key={'Tab3'}title="Crowd Monitoring" icon={<Group/>}>
-                        <TabContent key={'cm'} result={exampleResult} context={cm}/>
+                        <TabContent key={'cm'} result={cm_result} context={cm}/>
                     </Tab>
                     <Tab  key={'Tab4'} title="Facial Recognition" icon={<View/>}>
-                        <TabContent key={'fr'} result={exampleResult} context={fc}/>
+                        <TabContent key={'fr'} result={fc_result} context={fc}/>
                     </Tab>
                     <Tab key={'Tab5'} title="Covid App" icon={<Shield/>}>
-                        <TabContent key={'ca'} result={exampleResult} context={ca}/>
+                        <TabContent key={'ca'} result={ca_result} context={ca}/>
                     </Tab>
                 </Tabs>
             </Box>

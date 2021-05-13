@@ -68,7 +68,7 @@ export const TabContent = props => {
                     })}
                 </MultiParagraphDiv>
                 <hr/>
-                <Box gap={'0px'}>
+                <Box gap={'0px'} border={{size: 'xsmall', side: "top"}} pad={{top: "10px"}}>
                     {props.context.sources.map((para, index) => {
                         return <SourceParagraph key={index}>{para}</SourceParagraph>
                     })}
