@@ -37,7 +37,7 @@ export const fc = {
         }
     },
     legalInformation: [
-        <MyParagraph key={"fc1"}>This context basically contents two “contexts”:</MyParagraph>,
+        <MyParagraph key={"fc1"}>This setting actually consists of two contexts:</MyParagraph>,
         <ul key={"fc5"}>
             <MyLi>The video surveillance in train stations</MyLi>
             <MyLi>The use of this surveillance data to operate facial recognition software</MyLi>

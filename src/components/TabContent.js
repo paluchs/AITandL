@@ -99,7 +99,7 @@ export const TabContent = props => {
                          fill={'horizontal'}
                     >
                         <Heading level={4} margin={{top: 'small', bottom: '2px'}}>
-                            Red case
+                            Red case (Share/Don't use)
                         </Heading>
                     </Box>
                     <Box direction={'row'} margin={{top: "small"}} gap={"small"}>
@@ -116,7 +116,7 @@ export const TabContent = props => {
                          fill={'horizontal'}
                     >
                         <Heading level={4} margin={{top: 'small', bottom: '2px'}}>
-                            Yellow case
+                            Yellow case (Share/Use)
                         </Heading>
                     </Box>
                     <Box direction={'row'} margin={{top: "small"}} gap={"small"}>
@@ -133,7 +133,7 @@ export const TabContent = props => {
                          fill={'horizontal'}
                     >
                         <Heading level={4} margin={{top: 'small', bottom: '2px'}}>
-                            Blue case
+                            Blue case (Don't share/don't use)
                         </Heading>
                     </Box>
                     <Box direction={'row'} margin={{top: "small"}} gap={"small"}>
@@ -150,7 +150,7 @@ export const TabContent = props => {
                          fill={'horizontal'}
                     >
                         <Heading level={4} margin={{top: 'small', bottom: '2px'}}>
-                            Green case
+                            Green case (Don't share/Use)
                         </Heading>
                     </Box>
                     <Box direction={'row'} margin={{top: "small"}} gap={"small"}>

@@ -1,10 +1,10 @@
 export const ca_result = {
     individual: {
-        share: 10,
-        dontShare: 5
+        share: 22,
+        dontShare: 14
     },
     state: {
-        use: 9,
-        dontUse: 6
+        use: 17,
+        dontUse: 19
     }
 }

@@ -1,10 +1,10 @@
 export const nrf_result = {
     individual: {
-        share: 10,
-        dontShare: 5
+        share: 23,
+        dontShare: 13
     },
     state: {
-        use: 14,
-        dontUse: 2
+        use: 29,
+        dontUse: 7
     }
 }

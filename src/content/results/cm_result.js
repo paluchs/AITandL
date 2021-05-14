@@ -1,10 +1,10 @@
 export const cm_result = {
     individual: {
-        share: 7,
-        dontShare: 8
+        share: 21,
+        dontShare: 15
     },
     state: {
-        use: 7,
-        dontUse: 8
+        use: 24,
+        dontUse: 12
     }
 }

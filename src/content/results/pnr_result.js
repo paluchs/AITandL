@@ -1,10 +1,10 @@
 export const pnr_result = {
     individual: {
-        share: 20,
-        dontShare: 4
+        share: 25,
+        dontShare: 11
     },
     state: {
-        use: 12,
-        dontUse: 7
+        use: 21,
+        dontUse: 15
     }
 }

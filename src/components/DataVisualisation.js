@@ -1,6 +1,6 @@
 import {Box, Chart, Heading, Text} from "grommet";
 
-const PARTICIPANTS = 30
+const PARTICIPANTS = 36
 
 const LabelledChart = ({color, label, value}) => (
     <Box flex={false} align="center" gap="small">
@@ -63,7 +63,7 @@ export const DataVisualisation = props => {
                        valueNegative={props.data.individual.share}
 
             />
-            <ResultBox title={"Player as authorities who decided to:"}
+            <ResultBox title={"Players as authorities who decided to:"}
                        labelPositive={"Don't use the data"}
                        labelNegative={"Use the data"}
                        valuePositive={props.data.state.dontUse}

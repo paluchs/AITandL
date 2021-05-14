@@ -1,10 +1,10 @@
 export const fc_result = {
     individual: {
-        share: 1,
-        dontShare: 14
+        share: 10,
+        dontShare: 26
     },
     state: {
-        use: 6,
-        dontUse: 9
+        use: 16,
+        dontUse: 20
     }
 }

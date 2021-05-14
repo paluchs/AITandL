@@ -9,6 +9,14 @@ import {GeneralLegal} from "./components/GeneralLegal";
 
 
 function App() {
+
+    // Prevent app from falling asleep
+    let http = require("http");
+    setInterval(function() {
+        console.log("Kept page from falling asleep!")
+        http.get("https://ai-techandlaw-project.herokuapp.com/");
+    }, 300000)
+
     return (
         <Grommet theme={grommetTheme}>
             <Box fill={true}

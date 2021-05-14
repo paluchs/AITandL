@@ -1,14 +1,14 @@
 import {ContentBox} from "./Atoms/ContentBox";
 import {Heading2} from "./Atoms/Heading2";
 import {MyParagraph} from "./Atoms/MyParagraph";
-import {Box, Heading, Image} from "grommet";
+import {Box, Button, Heading, Image} from "grommet";
+import {Gamepad} from "grommet-icons";
 
 export const TheGame = () => {
     return (
         <ContentBox>
             <Heading2 title={"The Game"}/>
             <Box direction={'row-responsive'}
-                 justify={'start'}
             >
                 <Box margin={{top: "medium"}} width={{max: "large"}}>
                     <MyParagraph>
@@ -45,25 +45,28 @@ export const TheGame = () => {
                         to gain points is if individuals are willing to share data and they use the data.
                     </MyParagraph>
                 </Box>
-                <Box background={'white'}
-                     pad={'small'}
-                     round={'small'}
-                     margin={{top: "medium", left: 'small'}}
-                     elevation={'xsmall'}
-                     height={{max: 'medium'}}
-                     width={{min: 'medium'}}
-                     fill={false}
-                >
-                    <Box border={{color: 'accent-1', size: 'xsmall', side: "bottom"}}
-                         margin={{bottom: '10px'}}
+                <Box gap={'small'} pad={{horizontal: 'medium'}} width={{min: 'medium'}}>
+                    <Box background={'white'}
+                         pad={'small'}
+                         round={'small'}
+                         margin={{top: "medium"}}
+                         elevation={'xsmall'}
+                         height={{max: 'medium'}}
+                         fill={false}
                     >
-                        <Heading level={3} color={'accent-1'} margin={{top: '0px', bottom: '2px'}}>
-                            The Payoffs
-                        </Heading>
+                        <Box border={{color: 'accent-1', size: 'xsmall', side: "bottom"}}
+                             margin={{bottom: '10px'}}
+                        >
+                            <Heading level={3} color={'accent-1'} margin={{top: '0px', bottom: '2px'}}>
+                                The Payoffs
+                            </Heading>
+                        </Box>
+                        <Image src={'images/Payoffs.png'}
+                               fill={'horizontal'}
+                        />
+
                     </Box>
-                    <Image src={'images/Payoffs.png'}
-                           fill={'horizontal'}
-                    />
+                    <Button primary={true} icon={<Gamepad/>} label="Go to the Game" href="https://gamification-predpol.herokuapp.com/join/sbznyxcrxt/" />
                 </Box>
             </Box>
         </ContentBox>
