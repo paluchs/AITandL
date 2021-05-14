@@ -51,8 +51,6 @@ export const TheGame = () => {
                          round={'small'}
                          margin={{top: "medium"}}
                          elevation={'xsmall'}
-                         height={{max: 'medium'}}
-                         fill={false}
                     >
                         <Box border={{color: 'accent-1', size: 'xsmall', side: "bottom"}}
                              margin={{bottom: '10px'}}
